@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+<title>dailyprophet</title>
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 70%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 30%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color:#4C4845;
+    width:100%;
+    padding:20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    background-color: #4C4845;
+    color: white;
+    font-size: 10px;
+    padding-top: 20px;
+    padding-bottom: 40px;;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <img style="width:50%;height:70px;margin-top:0px; " src="head.png">
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="#">Sports</a>
+  <a href="#">Tech</a>
+  <a href="#">Entertainment</a>
+  <a href="contact.html">Contact</a>
+  
+  <a href="about.html" style="float:right">About</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2><a href="first.html"><font style="font-family:CenturyGothic"> DUMBLEDORE'S ARMY REUNITES AT QUIDDITCH WORLD CUP FINAL</font></a></h2>
+      <h5 ><i><font style="font-family:CenturyGothic">DUMBLEDORE'S ARMY REUNITES AT QUIDDITCH WORLD CUP FINAL was the title of an article published in the Daily Prophet ,Dec 7,2014</font></i></h5>
+      <div class="fakeimg" style="height:450px;"><img src="first.gif" alt="QUIDDITCH" width="840" height="400" style="width: 100%"></div>
+      <p><font style="font-family:CenturyGothic"><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There are celebrities and then there are celebrities. We've seen many a famous face from the wizarding world grace the stands here in the Patagonian Desert Ministers and Presidents, Celestina Warbeck, controversial American wizarding band The Bent-Winged Snitches.....</font>
+      </p>
+    </div>
+    <div class="card">
+      <h2><a href="second.html"><font style="font-family:CenturyGothic"> MASS BREAKOUT FROM AZKABAN</font></a></h2>
+      <h5><i><font style="font-family:CenturyGothic">MASS BREAKOUT FROM AZKABAN was the title of an article published in the Daily Prophet , Dec 4, 2010</font></i></h5>
+      <div class="fakeimg" style="height:450px;"><img src="sec.gif" alt="Azkaban" width="840" height="400" style="width: 100%;"></div>
+      <p><font style="font-family:CenturyGothic"><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Ministry of Magic announced late last night that there has been a mass breakout from Azkaban .Speaking to reporters in his private office, Cornelius Fudge, Minister for Magic, confirmed that ten high-security prisoners escaped in the early hours of yesterday evening.....</font></p>
+    </div>
+    <div class="card">
+      <h2><a href="second.html"><font style="font-family:CenturyGothic"> BLACK STILL AT LARGE</font></a></h2>
+      <h5><i><font style="font-family:CenturyGothic">BLACK STILL AT LARGE was an article published in the Daily Prophet in August of 1993.</font></i></h5>
+      <div class="fakeimg" style="height:450px;"><img src="third.gif" alt="Black" width="840" height="400" style="width: 100%;"></div>
+      <p><font style="font-family:CenturyGothic"><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sirius Black, possibly the most infamous prisoner ever to be held in Azkaban fortress, is still eluding capture, the Ministry of Magic confirmed today.
+      "We are doing all we can to recapture Black," said the Minister of Magic, Cornelius Fudge, this morning, "and we beg the magical community to remain calm.".....</font></p>
+    </div>
+    <h2><font style="font-family:CenturyGothic">TRENDING POST</font></h2>
+    <div class="responsive">
+      <div class="card">
+      <div class="gallery">
+      <a href="#">
+      <img src="one.gif" alt=xe" width="600" height="400">
+      </a>
+      <div class="desc"><font style="font-family:CenturyGothic">Voldemort showing his moves</font></div>
+      </div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="card">  
+      <div class="gallery">
+      <a  href="#">
+      <img src="seco.gif" alt=x" width="600" height="400">
+      </a>
+      <div class="desc"><font style="font-family:CenturyGothic">Amused Harry Potter !</font></div>
+      </div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="card">
+      <div class="gallery">
+      <a href="#">
+      <img src="thi.gif" alt="x" width="600" height="400">
+      </a>
+      <div class="desc"><font style="font-family:CenturyGothic">Angry Harry Potter</font></div>
+      </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2><font style="font-family:CenturyGothic"><a href="about.html">About Us</a></font></h2>
+      <div class="fakeimg" style="height:440px;"><img src="harry.jpg" alt="HARRY POTTER" style="height:400px;max-width:100%; "></div>
+      <p><font style="font-family:CenturyGothic"><br><br>Hi,my name is HARRY POTTER. Me and my friends Hermione Granger and Ron Weasley,we are the writer of this NEWSPAPER.</font>
+      </p>
+    </div>
+    <div class="card">
+      <h3><font style="font-family:CenturyGothic">Popular Post</font></h3>
+      <div class="fakeimg"><p><a href="first.html"> <img src="first.gif" style="max-width:100%;height:200px;"></a></p></div>
+      <div class="fakeimg"><p><a href="second.html"><img src="second.gif" style="max-width:100%;height:200px"></a></p></div>
+      <div class="fakeimg"><p><a href="#"> <img src="im1.gif" style="max-width:100%;height: 200px;"></a></p></div>
+      <div class="fakeimg"><p><a href="#"><img src="sec.gif" style="max-width:100%;height: 200px;"></a></p></div>
+      <div class="fakeimg"><p><a href="#"><img src="for.gif" style="max-width:100%;height: 200px;"></a></p></div>
+    </div>
+    <div class="card">
+      <h3><font style="font-family:CenturyGothic">Follow Me</font></h3>
+      <p>
+        <font size="4" style="font-family: "Times New Roman", Times, serif;">INSTA :<a href="https://www.instagram.com/daniel9340/?hl=en" style="color:red;"><i>@harry_potter</i></a></font><br>
+        <font size="4" style="font-family:CenturyGothic">TWITTER :<a href="https://twitter.com/DanJRadcliffeNL?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" style="color:red;"><i>@harry_potter</i></a></font><br>
+         <font size="4" style="font-family:CenturyGothic">FACEBOOK :<a href="https://www.facebook.com/DanielRadcliffeNews/" style="color:red;"><i>@harry_potter</i></a></font><br>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="low">
+  <div class="card">
+  <h2><a href="#"><font style="font-family:CenturyGothic"> MOST POPULAR POST </font></a></h2>
+  <div class="gallery">
+    <a href="#">
+      <img src="for.gif" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc"><font style="font-family:CenturyGothic"><br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Harry used his signature dueling spell: Expelliarmus. Due to a combination of the Elder Wand's true owner being Harry, not Voldemort, and the spells colliding, Voldemort's Avada Kedavra rebounded upon him (again). Since at that point all of his horcruxes had been destroyed there was nothing to keep him alive</font></div>
+  </div>
+</div>
+</div>
+
+<div class="footer">
+    <table>
+      <tr style="font-size: 18px;font-family:CenturyGothic">
+        <th>ARTICLES</th>
+        <th>SUPPORT</th>
+        <th>ACHIEVEMNTS</th>
+        <th>CONNECT</th>
+      </tr>
+      <tr style="font-size: 15px;">
+        <td>2000-2018</td>
+        <td>Online Chat</td>
+        <td>xxxxxx</td>
+        <td><a href="https://www.facebook.com/DanielRadcliffeNews/"><img src="facebook.png" width="30px" height="30px"></a></td>
+      </tr>
+      <tr style="font-size: 15px;">
+        <td>1950-2000</td>
+        <td>Mail</td>
+        <td>xxxxxx</td>
+        <td><a href="https://www.instagram.com/daniel9340/?hl=en"><img src="instagram.png" width="30px" height="30px"></a></td>
+      </tr>
+      <tr style="font-size: 15px;">
+        <td>1900-1950</td>
+        <td>Video Call</td>
+
+        <td>xxxxxx</td>
+        <td><a href="https://twitter.com/DanJRadcliffeNL?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="twitter.png" width="30px" height="30px"></a></td>
+      </tr>
+      <tr style="font-size: 15px;">
+        <td>1600-1900</td>
+        <td>Call</td>
+        <td>xxxxxx</td>
+        <td><a href="#"><img src="linkedin.png" width="30px" height="30px"></a></td>
+      </tr>
+    </table>
+    <h4>© 2018 Daily Prophet Inc. All rights reserved.</h4>
+  </div>
+</body>
+</html>
